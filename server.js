@@ -4,7 +4,7 @@ import express from 'express';
 import cors from 'cors';
 import mongoose from 'mongoose';
 import router from './routers/routes.js';
-import ErrorHandler from './middleware/ErrorHandler.js';
+import ErrorHandler from './middleware/errorHandler.js';
 
 const app = express()
 const port = process.env.PORT || 5000;
